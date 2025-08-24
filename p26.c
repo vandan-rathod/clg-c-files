@@ -26,17 +26,26 @@ int main(){
         printf("Y is largest\n");
         if (x>=z)
         {
-            printf(" is smallest\n");
+            printf("z is smallest\n");
         }
         else
         {
-
+            printf("x is smallest\n");
         }
         
     }
     else
     {
-        /* code */
+        printf("z is greatest");
+        if (x>=y)
+        {
+            printf("y is the smallest");
+        } else
+        {
+            printf("x is the smallest");
+        }
+        
+        
     }
     
     return 0;
