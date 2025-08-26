@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+
 int main(){
     int m1,m2,m3,tot;
     float avg;
